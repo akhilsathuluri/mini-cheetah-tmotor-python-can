@@ -25,7 +25,7 @@ def main():
     motor_controller_dict = {}
     for i in range(2, len(sys.argv)):
         motor_controller_dict[int(sys.argv[i])] = CanMotorController(
-            sys.argv[1], int(sys.argv[i]), motor_type="AK80_6_V1p1"
+            sys.argv[1], int(sys.argv[i]), motor_type="AK70_10_V1p1"
         )
 
     print("Enabling Motors..")
